@@ -1,6 +1,7 @@
 body{
 background-color: #777;
 text-align: center;
+color: #777;
 }
 
 #body-container{
@@ -12,6 +13,7 @@ header, nav, footer{
 	background-color: #ebebeb;
 	margin: 10px 0;
 	padding: 20px;
+
 }
 
 section {
@@ -22,12 +24,27 @@ section {
 	margin-right: 20px;
 }
 
+article{
+	
+	background-color: #777;
+	color: #ebebeb;
+	padding: 5px;
+
+}
+
+.article-content{
+	background-color: #ebebeb;
+	color: #777;
+	padding: 5px;
+	margin: 5px;
+}
+
 aside {
 	width: 405px;
 	float: left;
 	background-color: #ebebeb;
 	padding: 10px;
-	height: 60px;
+	height: 115px;
 
 }
 .clearfix::after {
